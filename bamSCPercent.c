@@ -25,6 +25,9 @@ void print_usage(char *program_name) {
     printf("    For example:\n");
     printf("    export LD_LIBRARY_PATH=/path/to/htslib:$LD_LIBRARY_PATH\n");
     printf("    Replace \"/path/to/htslib\" with the actual path where HTSlib is installed on your system.\n");
+    printf("\nAdditional Resources:\n");
+    printf("  - For the latest documentation and version information, please visit the GitHub repository:\n");
+    printf("    https://github.com/Enthusiasm23/BamSCPercent.git\n");
 }
 
 
