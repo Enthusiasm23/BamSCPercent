@@ -7,7 +7,7 @@ This program calculates the percentage of reads in a BAM file that contain soft 
 First clone the repository, then set the HTSlib path, then compile the program and give executable permissions:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Enthusiasm23/BamSCPercent.git
 cd BamSCPercent
 export HTSLIB_PATH=/path/to/htslib
 make
