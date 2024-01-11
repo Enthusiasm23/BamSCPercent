@@ -59,7 +59,27 @@ Replace "/path/to/samtools" with the actual path where SamTools is installed on 
 - If you encounter an error like "error while loading shared libraries: libhts.so.2to3part12: cannot open shared object file: No such file or directory", it indicates that the HTSlib shared library is not found in your library path. To resolve this, you can add the HTSlib path to your `LD_LIBRARY_PATH` environment variable. For example:
 
 ```shell
-export LD_LIBRARY_PATH=/path/to/htslib(lib):$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/path/to/htslib:$LD_LIBRARY_PATH
 ```
 
-Replace "/path/to/htslib/htslib(lib)" with the actual path where HTSlib is installed on your system.
+Replace "/path/to/htslib" with the actual path where HTSlib is installed on your system.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](.LICENSE) file for details.
+
+## Contributing
+Contributions to this project are welcome. To contribute:
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature/AmazingFeature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add some AmazingFeature'`).
+5. Push to the branch (`git push origin feature/AmazingFeature`).
+6. Open a pull request.
+
+## A Note from the Author
+
+😄🎉 Hey there! This is my first-ever C program. It's simple and relies a lot on [HTSLIB](https://github.com/samtools/htslib), but hey, we all start somewhere, right? 🚀
+
+🙌 I'm super excited to share it with the community. Feel free to use it, break it, fix it, and tell me all about it! Every bit of feedback, or even a simple "Hello", is like a high-five for me in my coding journey. 🌟
+
+Thanks for stopping by and being part of my programming adventure! 😊👍
